@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "bisch-8cf6b"
-  }
+    "test": "bisch-55ad4"
+  },
+  "targets": {},
+  "etags": {}
 }
