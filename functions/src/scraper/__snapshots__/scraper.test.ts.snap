@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scraper fetches all specs and their metadata 1`] = `
+[
+  {
+    "color": "rgb(196, 30, 58)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_deathknight_bloodpresence.gif",
+    "name": "Blood Death Knight",
+    "slug": "blood-death knight",
+  },
+  {
+    "color": "rgb(196, 30, 58)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_deathknight_frostpresence.gif",
+    "name": "Frost Death Knight",
+    "slug": "frost-death knight",
+  },
+  {
+    "color": "rgb(196, 30, 58)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_deathknight_unholypresence.gif",
+    "name": "Unholy Death Knight",
+    "slug": "unholy-death knight",
+  },
+  {
+    "color": "rgb(255, 124, 10)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_starfall.gif",
+    "name": "Balance Druid",
+    "slug": "balance-druid",
+  },
+  {
+    "color": "rgb(255, 124, 10)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_druid_catform.gif",
+    "name": "Feral DPS",
+    "slug": "feral-dps",
+  },
+  {
+    "color": "rgb(255, 124, 10)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_racial_bearform.gif",
+    "name": "Feral Tank",
+    "slug": "feral-tank",
+  },
+  {
+    "color": "rgb(255, 124, 10)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_healingtouch.gif",
+    "name": "Restoration Druid",
+    "slug": "restoration-druid",
+  },
+  {
+    "color": "rgb(170, 211, 114)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_hunter_beasttaming.gif",
+    "name": "Beast Mastery Hunter",
+    "slug": "beast-mastery hunter",
+  },
+  {
+    "color": "rgb(170, 211, 114)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_marksmanship.gif",
+    "name": "Marksmanship Hunter",
+    "slug": "marksmanship-hunter",
+  },
+  {
+    "color": "rgb(170, 211, 114)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_hunter_swiftstrike.gif",
+    "name": "Survival Hunter",
+    "slug": "survival-hunter",
+  },
+  {
+    "color": "rgb(63, 199, 235)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_magicalsentry.gif",
+    "name": "Arcane Mage",
+    "slug": "arcane-mage",
+  },
+  {
+    "color": "rgb(63, 199, 235)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_fire_firebolt02.gif",
+    "name": "Fire Mage",
+    "slug": "fire-mage",
+  },
+  {
+    "color": "rgb(63, 199, 235)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_frost_frostbolt02.gif",
+    "name": "Frost Mage",
+    "slug": "frost-mage",
+  },
+  {
+    "color": "rgb(244, 140, 186)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_holybolt.gif",
+    "name": "Holy Paladin",
+    "slug": "holy-paladin",
+  },
+  {
+    "color": "rgb(244, 140, 186)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_devotionaura.gif",
+    "name": "Protection Paladin",
+    "slug": "protection-paladin",
+  },
+  {
+    "color": "rgb(244, 140, 186)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_auraoflight.gif",
+    "name": "Retribution Paladin",
+    "slug": "retribution-paladin",
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_wordfortitude.gif",
+    "name": "Discipline Priest",
+    "slug": "discipline-priest",
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_holy_guardianspirit.gif",
+    "name": "Holy Priest",
+    "slug": "holy-priest",
+  },
+  {
+    "color": "rgb(255, 255, 255)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_shadowwordpain.gif",
+    "name": "Shadow Priest",
+    "slug": "shadow-priest",
+  },
+  {
+    "color": "rgb(255, 244, 104)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_rogue_eviscerate.gif",
+    "name": "Assassination Rogue",
+    "slug": "assassination-rogue",
+  },
+  {
+    "color": "rgb(255, 244, 104)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_backstab.gif",
+    "name": "Combat Rogue",
+    "slug": "combat-rogue",
+  },
+  {
+    "color": "rgb(255, 244, 104)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_stealth.gif",
+    "name": "Subtlety Rogue",
+    "slug": "subtlety-rogue",
+  },
+  {
+    "color": "rgb(0, 112, 221)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_lightning.gif",
+    "name": "Elemental Shaman",
+    "slug": "elemental-shaman",
+  },
+  {
+    "color": "rgb(0, 112, 221)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_lightningshield.gif",
+    "name": "Enhancement Shaman",
+    "slug": "enhancement-shaman",
+  },
+  {
+    "color": "rgb(0, 112, 221)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_nature_magicimmunity.gif",
+    "name": "Restoration Shaman",
+    "slug": "restoration-shaman",
+  },
+  {
+    "color": "rgb(135, 136, 238)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_deathcoil.gif",
+    "name": "Affliction Warlock",
+    "slug": "affliction-warlock",
+  },
+  {
+    "color": "rgb(135, 136, 238)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_metamorphosis.gif",
+    "name": "Demonology Warlock",
+    "slug": "demonology-warlock",
+  },
+  {
+    "color": "rgb(135, 136, 238)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/spell_shadow_rainoffire.gif",
+    "name": "Destruction Warlock",
+    "slug": "destruction-warlock",
+  },
+  {
+    "color": "rgb(198, 155, 109)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_rogue_eviscerate.gif",
+    "name": "Arms Warrior",
+    "slug": "arms-warrior",
+  },
+  {
+    "color": "rgb(198, 155, 109)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/ability_warrior_innerrage.gif",
+    "name": "Fury Warrior",
+    "slug": "fury-warrior",
+  },
+  {
+    "color": "rgb(198, 155, 109)",
+    "icon": "https://wow.zamimg.com/images/wow/icons/tiny/inv_shield_06.gif",
+    "name": "Protection Warrior",
+    "slug": "protection-warrior",
+  },
+]
+`;
