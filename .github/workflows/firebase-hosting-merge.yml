@@ -10,8 +10,11 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Install dependencies
+        uses: actions/checkout@v2
       - run: yarn
+      - name: Install function dependencies
+        run: cd functions && yarn
       - run: yarn build
       - name: Deploy Functions
         uses: joinflux/firebase-tools@master
