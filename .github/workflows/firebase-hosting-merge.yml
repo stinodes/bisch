@@ -19,6 +19,6 @@ jobs:
       - name: Deploy Functions
         uses: joinflux/firebase-tools@master
         with:
-          args: deploy --only functions,hosting
+          args: deploy --only functions,hosting --project test
         env: 
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
