@@ -1,6 +1,7 @@
 {
   "projects": {
-    "test": "bisch-55ad4"
+    "test": "bisch-55ad4",
+    "default": "bisch-55ad4"
   },
   "targets": {},
   "etags": {}

@@ -29,6 +29,7 @@ export const ClassesProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     const fetchClasses = async () => {
+      console.log('FETCHING CLASSES')
       // const { docs } = await getDocs(
       //   query(
       //     collection(firestore, 'classes') as CollectionReference<{

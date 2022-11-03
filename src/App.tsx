@@ -1,15 +1,18 @@
 import { RouterProvider } from 'react-router-dom'
+import { AuthProvider } from './auth/AuthContext'
 import { NavLayout } from './common/NavLayout'
 import { ClassesProvider } from './dashboard/ClassesContext'
 import { routes } from './routes'
 
 function App() {
   return (
-    <ClassesProvider>
-      <NavLayout>
-        <RouterProvider router={routes} />
-      </NavLayout>
-    </ClassesProvider>
+    <NavLayout>
+      <AuthProvider>
+        <ClassesProvider>
+          <RouterProvider router={routes} />
+        </ClassesProvider>
+      </AuthProvider>
+    </NavLayout>
   )
 }
 

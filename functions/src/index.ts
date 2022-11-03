@@ -11,6 +11,13 @@ import { scrapeClasses } from './scraper/classes'
 //
 
 export const classes = functions.https.onRequest(async (_, response) => {
-  const specs = await scrapeClasses()
-  response.send(specs)
+  try {
+    const specs = await scrapeClasses()
+    response.set('Access-Control-Allow-Origin', '*')
+    response.set('Access-Control-Allow-Headers', 'Authorization, Content-Type')
+    response.send(specs)
+  } catch (e) {
+    console.error(e)
+    response.sendStatus(500)
+  }
 })

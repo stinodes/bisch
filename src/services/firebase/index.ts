@@ -5,7 +5,8 @@ import '@firebase/firestore'
 
 import { getAnalytics } from 'firebase/analytics'
 import { getFirestore } from 'firebase/firestore'
-import { getFunctions } from 'firebase/functions'
+import { connectFunctionsEmulator, getFunctions } from 'firebase/functions'
+import { connectAuthEmulator, getAuth } from 'firebase/auth'
 
 // TODO: Add SDKs for Firebase products that you want to use
 
@@ -16,13 +17,19 @@ import { getFunctions } from 'firebase/functions'
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBPS5tw6XvTFzr48saXtzFQw331804hiZc',
-  authDomain: 'bisch-8cf6b.firebaseapp.com',
-  projectId: 'bisch-8cf6b',
-  storageBucket: 'bisch-8cf6b.appspot.com',
-  messagingSenderId: '364610996469',
-  appId: '1:364610996469:web:cef65dd7725dec7084ddbc',
-  measurementId: 'G-4PQ1LDBD9G',
+  apiKey: 'AIzaSyAHhDLkOj69sJud0NXj7SQ7eWGbWsJzXSw',
+
+  authDomain: 'bisch-55ad4.firebaseapp.com',
+
+  projectId: 'bisch-55ad4',
+
+  storageBucket: 'bisch-55ad4.appspot.com',
+
+  messagingSenderId: '120044883730',
+
+  appId: '1:120044883730:web:c4e281d2bfbaef4ab82dcb',
+
+  measurementId: 'G-RKRVS22CP0',
 }
 
 // Initialize Firebase
@@ -32,3 +39,7 @@ export const app = initializeApp(firebaseConfig)
 export const analytics = getAnalytics(app)
 export const firestore = getFirestore(app)
 export const functions = getFunctions(app)
+export const auth = getAuth(app)
+
+connectAuthEmulator(auth, 'http://localhost:9099')
+connectFunctionsEmulator(functions, 'localhost', 5001)
