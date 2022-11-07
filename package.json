@@ -21,17 +21,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.2",
-    "react-scripts": "5.0.1",
     "stinodes-ui": "^0.0.1-beta.24",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0",
     "yarn": "^1.22.19"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +51,10 @@
   },
   "devDependencies": {
     "@types/ramda": "^0.28.15",
-    "prettier": "^2.7.1"
+    "@vitejs/plugin-react": "^2.2.0",
+    "prettier": "^2.7.1",
+    "vite": "^3.2.2",
+    "vite-plugin-svgr": "^2.2.2",
+    "vite-tsconfig-paths": "^3.5.2"
   }
 }
